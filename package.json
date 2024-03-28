@@ -1,15 +1,19 @@
 {
   "name": "dashboard-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend prractice",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "mansi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
